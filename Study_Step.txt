@@ -1,0 +1,22 @@
+[root@Jamie-study data0]# mkdir Liao_Git_CongYuanChengKeLong
+[root@Jamie-study data0]# cd Liao_Git_
+-bash: cd: Liao_Git_: 没有那个文件或目录
+[root@Jamie-study data0]# cd Liao_Git_CongYuanChengKeLong/
+[root@Jamie-study Liao_Git_CongYuanChengKeLong]# ll
+总用量 0
+[root@Jamie-study Liao_Git_CongYuanChengKeLong]# git clone git@github.com:LeeJamie/gitskills.git
+Initialized empty Git repository in /data0/Liao_Git_CongYuanChengKeLong/gitskills/.git/
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+[root@Jamie-study Liao_Git_CongYuanChengKeLong]# ll
+总用量 4
+drwxr-xr-x 3 root root 4096 11月 16 19:30 gitskills
+[root@Jamie-study Liao_Git_CongYuanChengKeLong]# cd gitskills/
+[root@Jamie-study gitskills]# ll
+总用量 4
+-rw-r--r-- 1 root root 12 11月 16 19:30 README.md
+[root@Jamie-study gitskills]# cat README.md 
+# gitskills
+[root@Jamie-study gitskills]# 
+[root@Jamie-study gitskills]# 
